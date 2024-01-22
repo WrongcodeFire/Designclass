@@ -66,6 +66,10 @@
     top: 1px;
     left: 1200px;
   }
+  .Accountdiv a:hover {
+    background-color: #bebebe;
+    color: black;
+  }
       /*Home page content↓*/
       .main {
         position: absolute;

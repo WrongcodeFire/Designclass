@@ -1,0 +1,245 @@
+  /*General code↓*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /*Header code↓*/
+}
+.header {
+  position: fixed;
+  z-index: 2;
+    overflow: hidden;
+    background-color: #d2d2d2ff;
+    padding: 20px 10px;
+    float: center;
+    width: 1400px;
+    font-weight: bold;
+    border-bottom: 4px solid black;
+  }
+  .header a {
+    text-decoration: none;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 23px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .logo {
+    left: 10;
+    top: 10;
+    width: 200px;
+    height: 70px;
+    font-size: 25px;
+    font-weight: bold;
+    background-image: url(download.jpeg);
+    background-size: contain;
+  }
+  .headers a:hover {
+    background-color: #bebebe;
+    color: black;
+  }
+  .icon {
+    width: 13px;
+    height: 13px;
+  }
+  .icon2 {
+    padding-top: 12px;
+  }
+  .iconbutton {
+    border-radius: 3;
+    border: 2px solid black;
+  }
+  .searchb {
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  .Accountimg {
+ width: 55px;
+ height: 55px;
+  }
+  .Account {
+    position: absolute;
+    top: 1px;
+    left: 1200px;
+  }
+      /*Home page content↓*/
+      .main {
+        position: absolute;
+        width: 100%;
+        height: 1030px;
+        top: 114px;
+        background-color: #a5aeaaff;
+          }
+  .imghockey {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    height: 407px;
+    width: 740px;
+  }
+  .title1 {
+    position: absolute;
+    font-size: 50px;
+    left: 70%;
+    top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 3px solid black;
+  }
+  .paragraph1 {
+    font-size: 40px;
+    position: absolute;
+    left: 63%;
+    top:140px;
+  }
+  .viewthelist {
+    position: absolute;
+    top: 320px;
+    left: 73%;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+  }
+  .line1 {
+    position: absolute;
+    top: 445px;
+    width: 100%;
+    border: 2px solid black;
+  }
+  .title2 {
+    position: absolute;
+    font-size: 50px;
+    left: 10%;
+    top: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 3px solid black;
+  }
+  .paragraph2 {
+    font-size: 40px;
+    position: absolute;
+    left: 3%;
+    top:590px;
+  }
+  .learnmore1 {
+    position: absolute;
+    top: 800px;
+    left: 13%;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+  }
+  .title3 {
+    position: absolute;
+    font-size: 50px;
+    left: 65%;
+    top: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 3px solid black;
+  }
+  .paragraph3 {
+    font-size: 40px;
+    position: absolute;
+    left: 53%;
+    top:590px;
+  }
+  .learnmore2 {
+    position: absolute;
+    top: 800px;
+    left: 66%;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+  }
+  .line2 {
+    position: absolute;
+    top: 900px;
+    width: 100%;
+    border: 2px solid black;
+  }
+  .quote {
+position: absolute;
+top: 920px;
+left: 25%;
+font-size: 40px;
+font-weight: bold;
+  }
+  .line3 {
+    position: absolute;
+    top: 1029px;
+    width: 100%;
+    border: 2px solid black;
+  }
+      /*Contact us page content↓*/
+  .main2 {
+position: absolute;
+width: 100%;
+height: 1030px;
+top: 115px;
+background-color: #a5aeaaff;
+}
+.titlecontactus {
+  position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
+top: 30px;
+left: 43%;
+font-size: 40px;
+font-weight: bold;
+text-decoration: underline;
+}
+ 
+ .contactusform {
+  position: absolute;
+  left: 40%;
+  top: 100px;
+  width: 300px;
+  margin: 0 auto;
+ }
+ 
+ label {
+  font-weight: bold;
+  margin-top: 15px;
+ }
+ 
+ input[type=text], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+ }
+ 
+ input[type=submit] {
+  background-color: #3f444d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  width: 100%;
+ }
+ 
+ input[type=submit]:hover {
+  opacity: 0.7;
+ }
+ ::placeholder{
+color: black;
+font-family:Georgia ;
+ }
+ input[type=reset] {
+  background-color: #3f444d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  width: 100%;
+ }
+ 
+ input[type=reset]:hover {
+  opacity: 0.7;
+ }
+ 
